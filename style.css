@@ -40,6 +40,7 @@ a {
 /* Variables */
 
 :root {
+  /* Color */
   --primary-bg: #f2f2f2;
   --title: #f2594b;
   --primary-text: #f2594b;
@@ -167,6 +168,7 @@ nav {
   line-height: 1px;
   margin-top: 30px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .cover__text h3 {
@@ -242,6 +244,11 @@ nav {
   width: 250px;
   text-align: center;
   grid-column: 10/12;
+}
+
+.section__card span {
+  color: var(--primary-text);
+  font-weight: 800;
 }
 
 .card__image {
