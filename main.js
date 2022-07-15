@@ -1,3 +1,5 @@
+// Toggle Menu
+
 let hamburger = document.querySelector('.header__hamburger');
 
 hamburger.addEventListener('click', function () {
