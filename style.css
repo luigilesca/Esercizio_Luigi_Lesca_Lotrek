@@ -632,6 +632,10 @@ footer .grid {
     grid-row: 2;
   }
 
+  .col-3__text a {
+    margin-right: 10px;
+  }
+
   .col-4 {
     grid-column: 1/3;
   }
